@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::group(function() {
+Route::post('/login', []);
 
+Route::group(function() {
 })->middleware(['auth']);
